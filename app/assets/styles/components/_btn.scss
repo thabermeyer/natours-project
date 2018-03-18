@@ -4,17 +4,18 @@
 
         text-transform: uppercase;
         text-decoration: none;
-        padding: 15px 40px;
+        padding: 1.5rem 4rem;
         border-radius: 100px;
         transition: all .2s;
         position: relative;
+        font-size: 1.6rem;
 
     }
 
     &:hover {
 
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba($primary-black,.2);
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($primary-black,.2);
 
         &::after {
 
@@ -28,7 +29,7 @@
     &:active {
 
         transform: translateY(-1px);
-        box-shadow: 0 5px 10px rgba($primary-black,.2);
+        box-shadow: 0 .5rem 1rem rgba($primary-black,.2);
 
     }
 
@@ -38,7 +39,7 @@
         display: inline-block;
         height: 100%;
         width: 100%;
-        border-radius: 100px;
+        border-radius: 10rem;
         position: absolute;
         top: 0;
         left: 0;
