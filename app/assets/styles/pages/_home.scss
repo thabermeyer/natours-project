@@ -5,3 +5,15 @@
     margin-top: -20vh;
 
 }
+
+.section-features {
+
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($primary-green--light, 0.8),
+        rgba($primary-green--dark, 0.8)),
+    url(../../assets/images/nat-4.jpg);
+    background-size: cover;
+
+}
