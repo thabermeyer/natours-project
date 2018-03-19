@@ -8,7 +8,7 @@
         border-radius: 100px;
         transition: all .2s;
         position: relative;
-        font-size: 1.6rem;
+        font-size: $default-font-size;
 
     }
 
@@ -72,6 +72,38 @@
                 animation-fill-mode: backwards;
         
             }
+
+        }
+
+    }
+
+    &-text {
+
+        &:link, &:visited {
+
+            color: $primary-green;
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-bottom: .1rem solid $primary-green;
+            padding: .3rem;
+            font-size: $default-font-size;
+
+        }
+
+        &:hover {
+
+            background-color: $primary-green;
+            color: $primary-white;
+            box-shadow: 0 1rem 2rem rgba($primary-black, .15);
+            transform: translateY(-.2rem);
+
+        }
+
+        &:active {
+
+            box-shadow: 0 .5rem 1rem rgba($primary-black, .15);
+            transform: translateY(0);
 
         }
 
