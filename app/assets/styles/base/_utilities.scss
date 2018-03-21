@@ -25,3 +25,31 @@
     }
 
 }
+
+.u-margin-top {
+
+    &-small {
+
+        margin-top: 1.5rem;
+
+    }
+
+    &-medium {
+        
+        margin-top: 4rem;
+
+    }
+
+    &-big {
+
+        margin-top: 8rem;
+
+    }
+
+    &-bigger {
+
+        margin-top: 10rem;
+
+    }
+
+}

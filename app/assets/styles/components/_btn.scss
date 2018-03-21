@@ -62,6 +62,20 @@
 
     }
 
+    &--green {
+
+        background-color: $primary-green;
+        color: $primary-white;
+        display: inline-block;
+
+        &::after {
+
+            background-color: $primary-green;
+
+        }
+
+    }
+
     &-animated {
 
         &--moveInBottom {
