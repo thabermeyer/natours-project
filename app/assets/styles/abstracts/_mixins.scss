@@ -38,6 +38,13 @@ $breakpoint Argument Choices
 
 1em = 16px
 
+// ORDER FOR ADDING MEDIA QUERIES
+
+1. Base + Typography
+2. General Layout + Grid
+3. Page Layout
+4. Components
+
 */
 
 @mixin respond($breakpoint) {
