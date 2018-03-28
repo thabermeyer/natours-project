@@ -33,10 +33,10 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
     .pipe(gulp.dest("./docs/"));
 });
 
-gulp.task('copyIconFiles', ['copyGeneralFiles'], function() {
+gulp.task('copyIconFiles', ['copyGeneralFiles', 'usemin'], function() {
 
-  return gulp.src('./app/temp/fonts/**')
-    .pipe(gulp.dest("./docs/assets/styles/fonts/"));
+  return gulp.src(['./app/temp/styles/fonts/**/*'])
+    .pipe(gulp.dest("./docs/assets/styles/fonts"));
 
 });
 
