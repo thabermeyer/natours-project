@@ -13,7 +13,7 @@
         to right bottom, 
         rgba($primary-green--light, 0.8),
         rgba($primary-green--dark, 0.8)),
-    url(../../assets/images/nat-4.jpg);
+    url('../../assets/images/nat-4.jpg');
     background-size: cover;
     margin-top: -11rem;
 
@@ -75,21 +75,21 @@
 
 .book {
 
-    background-image: linear-gradient(105deg, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 50%, transparent 50%), url(../../assets/images/nat-10.jpg);
+    background-image: linear-gradient(105deg, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 50%, transparent 50%), url('../../assets/images/nat-10.jpg');
     background-size: 100%;
     border-radius: .3rem;
     box-shadow: 0 1.5rem 4rem rgba($primary-black, .2);
 
     @include respond(tab-land) {
 
-        background-image: linear-gradient(105deg, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 65%, transparent 65%), url(../../assets/images/nat-10.jpg);
+        background-image: linear-gradient(105deg, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 65%, transparent 65%), url('../../assets/images/nat-10.jpg');
         background-size: cover;
 
     }
 
     @include respond(tab-port) {
 
-        background-image: linear-gradient(to right, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 100%), url(../../assets/images/nat-10.jpg);
+        background-image: linear-gradient(to right, rgba($primary-white, .9) 0%, rgba($primary-white, .9) 100%), url('../../assets/images/nat-10.jpg');
 
     }
 

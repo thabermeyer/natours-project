@@ -5,7 +5,7 @@
         to right bottom, 
         rgba($primary-green--light, 0.8),
         rgba($primary-green--dark, 0.8)),
-    url(../../assets/images/hero-small.jpg);
+    url('../../assets/images/hero-small.jpg');
     background-size: cover;
     background-position: top;
     position: relative;
@@ -27,7 +27,7 @@
             to right bottom, 
             rgba($primary-green--light, 0.8),
             rgba($primary-green--dark, 0.8)),
-        url(../../assets/images/hero.jpg);
+        url('../../assets/images/hero.jpg');
 
     }
 
